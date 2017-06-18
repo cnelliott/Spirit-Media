@@ -1,0 +1,21 @@
+{
+  "name": "fbmessSpirit",
+  "version": "1.0.0",
+  "main": "spirittest.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "webtask-tools": "^3.2.0",
+    "wt-cli": "^6.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "wt create spirittest.js --bundle --secret PAGE_ACCESS_TOKEN=$(echo | cat page.access_token.secret)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
