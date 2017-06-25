@@ -1,5 +1,7 @@
 # Spirit-Media
 Media app/website for churches and global religions. Created a Facebook Messenger App
+https://www.facebook.com/Spirit-Media-280780832386557/messages
+m.me
 
 #Spirittest.js
 This file is where the brains of the Facebook Messenger APP lives.
