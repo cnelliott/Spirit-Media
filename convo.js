@@ -3,7 +3,16 @@ module.exports = (text, event) => {
 		return {
 			text: 'FOOBAR'
 		}
-	} // if cat
+	} // if foo
+
+	if (text.includes('About your page')) {
+		return{
+  "setting_type":"greeting",
+  "greeting":{
+    "text":"Hi {{recipient_first_name}}, welcome to this bot. Sending the Holy Spirit through media to help the world."
+  	}
+  }
+}
 
 	if (text.includes('list')) {
 		return {
